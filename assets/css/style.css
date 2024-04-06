@@ -1,0 +1,49 @@
+
+body {
+    font-family: roboto;
+    font-weight: lighter;
+}
+
+.barra:hover {
+    background-color: gainsboro;
+    
+}
+
+.resumen {
+    display: flex;
+}
+
+.foto {
+    background-size: cover;
+    max-width: 100%;
+    padding: 0
+    
+}
+
+.card-body {
+    min-height: 350px;
+}
+
+.cardfooter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 5%;
+    
+    text-align: center;
+}
+
+#fondoportafolio {
+    
+    background-image: url(/assets/imgs/3d_dark_triangles.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#proyectos {
+    background-color: #000000 ;
+
+}
